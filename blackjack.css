@@ -3,4 +3,26 @@ body {
     text-align: center;
 }
 
-#dealer
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#my-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#hit {
+    width:125px;
+    height: 75px;
+    font-size: 25px;
+}
+
+#stay {
+    width:125px;
+    height: 75px;
+    font-size: 25px;
+}
