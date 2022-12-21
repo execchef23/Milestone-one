@@ -1,8 +1,47 @@
 // scss variables
-$myBackground-color: black;
-$mySecondary-color: #f3edea; 
+$myPrimary-color: rgb(15, 180, 73);
+$mySecondary-color: #0d0d0c; 
 $myFonts: Times New Roman;
 $myFont-size: 25px;
+$myText-align: center;
+$myFont-weight: bold;
 $myWidth: 100px;
 $myHeight: 150px;
 $myMargin: 1px;
+$myText-shadow: 5px 5px blue;
+
+
+body {
+    font-family: $myFonts;
+    text-align: $myText-align;
+}
+
+#dealer-cards img {
+    height: $myHeight;
+    width: $myWidth;
+    margin: $myMargin;
+}
+
+#my-cards img {
+    height: $myHeight;
+    width: $myWidth;
+    margin: $myMargin;
+}
+
+#hit {
+    background-color: $mySecondary-color;
+    $myColor: whitesmoke;
+    color: $myColor;
+    width: $myWidth;
+    height: $myHeight;
+    font-size: $myFont-size;
+}
+
+#stay {
+    background-color: $mySecondary-color;
+    $myColor: whitesmoke;
+    color: $myColor;
+    width: $myWidth;
+    height: $myHeight;
+    font-size: $myFont-size;
+}

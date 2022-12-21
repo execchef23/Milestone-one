@@ -1,0 +1,32 @@
+body {
+  font-family: Times New Roman;
+  text-align: center;
+}
+
+#dealer-cards img {
+  height: 150px;
+  width: 100px;
+  margin: 1px;
+}
+
+#my-cards img {
+  height: 150px;
+  width: 100px;
+  margin: 1px;
+}
+
+#hit {
+  background-color: #0d0d0c;
+  color: whitesmoke;
+  width: 100px;
+  height: 150px;
+  font-size: 25px;
+}
+
+#stay {
+  background-color: #0d0d0c;
+  color: whitesmoke;
+  width: 100px;
+  height: 150px;
+  font-size: 25px;
+}
