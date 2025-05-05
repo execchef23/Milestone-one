@@ -14,7 +14,7 @@
         p {
             font-size:40px;
             font-weight: bold;
-            color: white; 
+            color: white;
             text-shadow: 5px 5px rgb(55, 24, 234);
         }
     </style>
@@ -38,5 +38,18 @@
         <button id="hit">Hit</button>
         <button id="stay">Stay</button>
         <p id="results"></p>
+
+        <div id="betting-area">
+            <h2>Money: $<span id="player-money">500</span></h2>
+            <h2>Current Bet: $<span id="current-bet">0</span></h2>
+            <div id="chip-buttons">
+                <button class="chip" data-value="5">$5</button>
+                <button class="chip" data-value="10">$10</button>
+                <button class="chip" data-value="25">$25</button>
+                <button class="chip" data-value="50">$50</button>
+            </div>
+            <button id="place-bet">Place Bet</button>
+            <button id="reset-bet">Reset Bet</button>
+        </div>
     </body>
 </html>

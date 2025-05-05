@@ -1,0 +1,24 @@
+{
+  "name": "Milestone-one",
+  "version": "1.0.0",
+  "description": "//Milestone project 1",
+  "main": "blackjack.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/execchef23/Milestone-one.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/execchef23/Milestone-one/issues"
+  },
+  "homepage": "https://github.com/execchef23/Milestone-one#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18"
+  }
+}

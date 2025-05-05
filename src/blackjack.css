@@ -1,0 +1,78 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#my-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1px;
+}
+
+#hit {
+    background-color: black;
+    color: whitesmoke;
+    width:125px;
+    height: 75px;
+    font-size: 25px;
+}
+
+#stay {
+    background-color: black;
+    color: whitesmoke;
+    width:125px;
+    height: 75px;
+    font-size: 25px;
+}
+
+#betting-area {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#betting-area h2 {
+    margin: 5px 0;
+}
+
+#chip-buttons button {
+    background-color: green;
+    color: white;
+    border: 2px solid darkgreen;
+    border-radius: 50%; /* Make them look like chips */
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#chip-buttons button:hover {
+    background-color: darkgreen;
+}
+
+#place-bet, #reset-bet {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 5px 0 5px; /* Add some margin */
+}
+
+#place-bet:hover, #reset-bet:hover {
+    background-color: #45a049;
+}
+
+#place-bet:disabled, #reset-bet:disabled {
+    background-color: #cccccc; /* Grey out when disabled */
+    cursor: not-allowed;
+}
