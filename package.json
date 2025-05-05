@@ -19,6 +19,7 @@
   "homepage": "https://github.com/execchef23/Milestone-one#readme",
   "devDependencies": {
     "@types/express": "^4.17.15",
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "typescript": "^5.8.3"
   }
 }
